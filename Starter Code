@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AstroWeather</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌌 AstroWeather</h1>
+    <div class="card weather-card">
+      <h2 id="location">Loading...</h2>
+      <div id="weather"></div>
+    </div>
+    <div class="card astronomy-card">
+      <h2>🌙 Tonight's Sky</h2>
+      <div id="astronomy"></div>
+    </div>
+  </div>
+  <script src="src/app.js" type="module"></script>
+</body>
+</html>
